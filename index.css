@@ -1,0 +1,142 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.main-parent{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.child{
+    padding: 3rem;
+    width: 27rem;
+    height: 37rem;
+}
+.first{
+    background: linear-gradient(#6440fb, #322de9);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+h2{
+    color: #dfd9fb;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+.score{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    background: linear-gradient(#4b24c9,#4734f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#scored{
+    font-size: 4.5rem;
+    color: #fff;
+    font-family: calibri;
+}
+#sub-heading{
+    font-family: calibri;
+    color: #fff;
+}
+.breif-line{
+    color: #b0aafb;
+    font-size: 1.3rem;
+}
+.jr-child{
+    height: 4rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+h1{
+    font-family: calibri;
+    color: rgb(36, 36, 36);
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+.jr{
+    font-size: 1.4rem;
+}
+.ph{
+    font-size: 1.7rem;
+}
+.icon1{
+    color: red;
+}
+.icon2{
+    color: orange;
+}
+.icon3{
+    color: #82ccb8;
+}
+.icon4{
+    color: blue;
+}
+.jr1{
+    color: red;
+}
+.jr2{
+    color: orange;
+}
+.jr3{
+    color: #82ccb8;
+}
+.jr4{
+    color: blue;
+}
+#reaction{
+    background-color: rgb(255 246 245);
+}
+#memory{
+    background-color: rgb(255 251 242);
+}
+#verbal{
+    background-color: rgb(242 251 250);
+}
+#visual{
+    background-color: rgb(243 243 253);
+}
+button{
+    width: 20rem;
+    height: 4rem;
+    background-color: #303b59;
+    color: #d5dce3;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+span{
+    color: #595f72;
+    font-size: 1.2rem;
+    margin-left: 6.8rem;
+}
+.last{
+    margin-left: 8rem;
+}
+@media (max-width:54rem){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-parent{
+        margin-top: 0rem;
+    }
+}
